@@ -16,6 +16,12 @@ We only want to authorize access to the system to some registered users.
 
 ### `bundle install`
 
+### `rails db:migrate`
+
+### `rails db:migrate:reset`
+
+### `rails db:seed`
+
 ### `rails s`
 
 Runs the app in [http://localhost:3000](http://localhost:3000).
