@@ -1,24 +1,22 @@
-# README
+# Backend grades system made in Rails api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Angel's pairing Session Challenge
 
-Things you may want to cover:
+We want to create a grades’ system where only some registered admin users can access it and handle the CRUD of students, courses, and regarding a specific student, the CRUD of its grades as well.
 
-* Ruby version
+A student should have at least 2 fields for identifying it, and a course at least one.
 
-* System dependencies
+A student can take more than one course at a time
 
-* Configuration
+We only want to authorize access to the system to some registered users.
 
-* Database creation
 
-* Database initialization
+## commands to make it works
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### `bundle install`
 
-* Deployment instructions
+### `rails s`
 
-* ...
+Runs the app in [http://localhost:3000](http://localhost:3000).
+
